@@ -7,7 +7,6 @@
 // - JSON‑LD structured data for LegalService + FAQ
 // - Mobile‑first layout, clean typography, and clear CTAs
 
-import type { Metadata } from "next";
 import Link from "next/link";
 
 
@@ -81,7 +80,9 @@ export default function Page() {
     <main className="min-h-dvh bg-white text-neutral-900">
       {/* JSON‑LD for rich results */}
       <JsonLd />
+      <header>
 
+      </header>
       {/* HERO */}
       <section className="relative isolate overflow-hidden bg-[url('/vzla_flag.jpg')] bg-center bg-cover text-white">
         <div className="mx-auto max-w-7xl px-4 py-20 sm:py-28">
